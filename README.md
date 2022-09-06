@@ -7,4 +7,8 @@ Visionary Genius Academy Art Gallery was built using HTML, CSS, JS with Aframe. 
 
 To move around the space, simply use the W,S,A,D keys on the keyboard. For mobile you there are no controls, only observation mode. Enjoy!
 
+
+### Live Page
+https://designiso.github.io/VGA-Art-World/
+
 <img src="https://github.com/designisO/VGA-WebGL-World/blob/main/media/screenshot.png" />
