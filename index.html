@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Small Metaverse Vision</title>
+    
+    <!-- Aframe -->
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <!-- Enviroment Component-->
+    <script src="https://unpkg.com/aframe-environment-component@1.2.0/dist/aframe-environment-component.min.js"></script>
+    <!-- Video Componets-->
+    <script src="video.js"></script>
+    <!-- Super Keyboard-->
+    <script src="https://unpkg.com/aframe-super-keyboard@1.0.0/dist/aframe-super-keyboard.min.js"></script>
+
+</head>
+<body>
+    <a-scene>
+        
+        <!--Main Screen-->
+
+        <a-box color="#000000" width="80" height="18" depth="0.3" position="0 8 -26"></a-box>
+        <a-box src ="/media/banner.png" width="30" height="10" depth="0.3" position="0 23 -26"></a-box>
+
+        <a-video src="media/vga.jpg" width="15" height="15" position="0 8 -25"></a-video>
+
+
+        <!-- Right side-->
+        <a-video src="/media/moon.png" width="8" height="10" position="13 5 -25"></a-video>
+        <a-video src="/media/house1.png" width="8" height="10" position="22 5 -25"></a-video>
+        <a-video src="/media/car2.png" width="8" height="10" position="31 5 -25"></a-video>
+
+        <!--Left side-->
+        <a-video src="/media/munchie.png" width="8" height="10" position="-13 5 -25"></a-video>
+
+        <a-video src="/media/house2.png" width="8" height="10" position="-22 5 -25"></a-video>
+
+        <a-video src="/media/car1.png" width="8" height="10" position="-31 5 -25"></a-video>
+    
+        <a-entity environment="preset: tron; groundColor: #445; groundTexture: walkernoise; grid: cross; dressing: towers; dressingAmount: 10;"></a-entity>
+
+    </a-scene>
+</body>
+</html>
